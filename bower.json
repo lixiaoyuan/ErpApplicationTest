@@ -1,0 +1,29 @@
+{
+  "name": "erp-application",
+  "description": "资源管理系统",
+  "main": "eapp/index.js",
+  "authors": [
+    "Lixiaoyuan <1064997559@qq.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
