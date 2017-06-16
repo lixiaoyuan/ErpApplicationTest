@@ -15,7 +15,7 @@ app.on('ready', function () {
         frame: true,
         transparent: false
     });
-    mainWindow.loadURL(`file://${__dirname}/../dist/index.html`);
+    mainWindow.loadURL(`file://${__dirname}/../index.html`);
     mainWindow.on('closed', function () {
         mainWindow = null;
     });
